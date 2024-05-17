@@ -1,0 +1,220 @@
+body {
+    padding-top: 50px;
+    background-color: rgb(91, 101, 110);
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    border-radius: 15px;
+    background-color: #e0dfdf;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+.cv {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.photo {
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+}
+
+.photo2 {
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+}
+
+
+.social-links {
+    margin-top: 20px;
+    /* sosyal medya linklerinden üstteki boşluk */
+    text-align: center;
+
+}
+
+.carousel {
+    position: absolute;
+    margin-top: 50px;
+    left: 35%;
+    width: 500px;
+    height: 333px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+}
+
+.container-harita {
+    display: flex;
+    border-radius: 15px;
+    background-color: #e0dfdf;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+    margin-bottom: 50px;
+    margin-top: 450px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.container-takim {
+    display: flex;
+    border-radius: 15px;
+    background-color: #e0dfdf;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.social-takim {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.body-ilet {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.container-ilet {
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(153, 156, 159);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.iletisimm h2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.iletisimm form {
+    width: 600px;
+    text-align: center;
+}
+
+form .input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box .input-field {
+    width: 40%;
+}
+
+.field .item {
+    width: 100%;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin: 22px 0;
+}
+
+.field.error .item {
+    border-color: rgb(255, 108, 108);
+}
+
+.field .error-txt {
+    font-size: 14px;
+    color: rgb(54, 54, 54);
+    text-align: left;
+    margin: 0 10px;
+}
+
+.field.error .error-txt {
+    display: block;
+}
+
+.field .item::placeholder {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form .textarea-field .error-txt {
+    margin-top: -10px;
+}
+
+form button {
+    padding: 12px 32px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.39);
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+form button:hover {
+    box-shadow: none;
+}
+
+
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 15px;
+    background-color: #e0dfdf;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 370px;
+    margin-right: 370px;
+}
+
+.container-login h2{
+    font-size: 56px;
+    text-align: center;
+}
+
+
+.input-box input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 10px 10px 25px;
+}
+
+.input-box {
+    font-size: 20px;
+}
